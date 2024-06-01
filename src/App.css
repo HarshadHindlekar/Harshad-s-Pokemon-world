@@ -2,8 +2,8 @@ body {
   background: linear-gradient(to right, #FDDF3C, #3B4CCA);
 }
 
-.logo {
-  margin: 0 2rem 0 0;
+img.pokemon-logo {
+  width: 33%;
 }
 
 .search-container {
@@ -92,7 +92,7 @@ ul {
 .modal-content {
   text-align: center;
   color: #FBEAEB;
-  background-color:  #00246B;
+  background-color: #00246B;
   margin: 2% auto;
   padding: 20px;
   border: 1px solid #FBEAEB;
@@ -122,4 +122,3 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-

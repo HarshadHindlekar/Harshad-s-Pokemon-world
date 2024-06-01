@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="pokemon-header">
-        <img alt="react logo" className="logo" src={logo} />
+        <img alt="react logo" className="pokemon-logo" src={logo} />
         <div className="search-container">
           <input
             className="search-box"
