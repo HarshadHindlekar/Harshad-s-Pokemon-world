@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pokemon-search-react/static/css/main.f3d23539.css",
-    "main.js": "/pokemon-search-react/static/js/main.39ddfe10.js",
-    "static/js/453.bd7a2879.chunk.js": "/pokemon-search-react/static/js/453.bd7a2879.chunk.js",
-    "static/media/logo.png": "/pokemon-search-react/static/media/logo.d4eeecadd64c0b382093.png",
-    "index.html": "/pokemon-search-react/index.html",
-    "main.f3d23539.css.map": "/pokemon-search-react/static/css/main.f3d23539.css.map",
-    "main.39ddfe10.js.map": "/pokemon-search-react/static/js/main.39ddfe10.js.map",
-    "453.bd7a2879.chunk.js.map": "/pokemon-search-react/static/js/453.bd7a2879.chunk.js.map"
+    "main.css": "/Harshad-s-Pokemon-world/static/css/main.f3d23539.css",
+    "main.js": "/Harshad-s-Pokemon-world/static/js/main.d38a1972.js",
+    "static/js/453.bd7a2879.chunk.js": "/Harshad-s-Pokemon-world/static/js/453.bd7a2879.chunk.js",
+    "static/media/logo.png": "/Harshad-s-Pokemon-world/static/media/logo.d4eeecadd64c0b382093.png",
+    "index.html": "/Harshad-s-Pokemon-world/index.html",
+    "main.f3d23539.css.map": "/Harshad-s-Pokemon-world/static/css/main.f3d23539.css.map",
+    "main.d38a1972.js.map": "/Harshad-s-Pokemon-world/static/js/main.d38a1972.js.map",
+    "453.bd7a2879.chunk.js.map": "/Harshad-s-Pokemon-world/static/js/453.bd7a2879.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3d23539.css",
-    "static/js/main.39ddfe10.js"
+    "static/js/main.d38a1972.js"
   ]
 }
