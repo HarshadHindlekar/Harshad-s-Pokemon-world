@@ -70,16 +70,22 @@ function App() {
           </div>
         )}
 
-        <ul className={filteredPokemonList.length < 9 ? 'pokemon-item-less':""}>
+        <ul className={filteredPokemonList.length < 9 ? 'pokemon-item-less' : ""}>
           {filteredPokemonList.map((pokemon) => (
             <li key={pokemon.id} className="pokemon-item">
-              <a  className='pokemon-item-a' href="#" onClick={() => showPokemon(pokemon.url)}>
+              <a className='pokemon-item-a' href="#" onClick={() => showPokemon(pokemon.url)}>
                 {pokemon.name}
               </a>
             </li>
           ))}
         </ul>
       </main>
+      <footer>
+        <div class="frame">
+          <h1 class="frame__title">Harshad's Pokemon World</h1>
+          <span class="frame__credits">Copyright 2024.<br /> All Rights Reserved By <a href="https://harshad-portfolio.vercel.app/">Harshad Hindlekar</a></span>
+        </div>
+      </footer>
     </div>
   );
 }
