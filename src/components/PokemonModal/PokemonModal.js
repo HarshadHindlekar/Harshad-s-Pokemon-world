@@ -18,7 +18,7 @@ const PokemonModal = ({ pokemon, loading, error, onClose }) => {
         <div className="error">{error}</div>
       ) : (
         <div className="pokemon-details">
-          <div className="pokemon-header">
+          <div className="pokemon-header2">
             <img 
               className="pokemon-img"
               src={pokemon.sprites.other['official-artwork'].front_default || 

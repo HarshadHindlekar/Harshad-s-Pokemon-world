@@ -21,7 +21,7 @@
   border-radius: 4px;
 }
 
-.pokemon-header {
+.pokemon-header2 {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
   padding: 20px;
   display: flex;
@@ -249,7 +249,7 @@ audio::-webkit-media-controls-mute-button {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .pokemon-header {
+  .pokemon-header2 {
     padding: 15px 10px;
   }
 
