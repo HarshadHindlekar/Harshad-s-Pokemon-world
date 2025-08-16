@@ -1,27 +1,23 @@
 import React from 'react';
 import './PokemonModal.css';
+import Modal from '../Modal/Modal';
 
 const PokemonModal = ({ pokemon, loading, error, onClose }) => {
   if (!pokemon) return null;
 
   return (
-    <div className="modal" onClick={onClose}>
-      <div className="modal-content" onClick={e => e.stopPropagation()}>
-        <button 
-          className="close-button" 
-          onClick={onClose}
-          aria-label="Close"
-        >
-          &times;
-        </button>
-        
-        {loading ? (
-          <div className="loading">Loading...</div>
-        ) : error ? (
-          <div className="error">{error}</div>
-        ) : (
-          <div className="pokemon-details">
-            <h2>{pokemon.name}</h2>
+    <Modal 
+      isOpen={!!pokemon} 
+      onClose={onClose} 
+      title={pokemon?.name}
+      className="pokemon-modal"
+    >
+      {loading ? (
+        <div className="loading">Loading...</div>
+      ) : error ? (
+        <div className="error">{error}</div>
+      ) : (
+        <div className="pokemon-details">
             <img 
               className="pokemon-img"
               src={pokemon.sprites.other['official-artwork'].front_default || 
@@ -85,10 +81,9 @@ const PokemonModal = ({ pokemon, loading, error, onClose }) => {
                 </div>
               </div>
             </div>
-          </div>
-        )}
-      </div>
-    </div>
+        </div>
+      )}
+    </Modal>
   );
 };
 
