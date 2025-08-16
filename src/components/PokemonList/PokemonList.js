@@ -1,4 +1,5 @@
 import React from 'react';
+import './PokemonList.css';
 
 const PokemonList = ({ pokemonList, onPokemonSelect, searchTerm, onClearSearch }) => {
   if (pokemonList.length === 0) {
@@ -16,31 +17,25 @@ const PokemonList = ({ pokemonList, onPokemonSelect, searchTerm, onClearSearch }
   }
 
   return (
-    <ul className={pokemonList.length < 9 ? 'pokemon-item-less' : ""}>
+    <div className="pokemon-grid">
       {pokemonList.map((pokemon) => (
-        <li 
-          key={pokemon.id} 
-          className="pokemon-item"
-          style={{ '--i': pokemon.index % 10 }}
-        >
+        <div key={pokemon.id} className="pokemon-card">
           <button 
-            className='pokemon-item-a' 
+            className='pokemon-card-button' 
             onClick={(e) => {
               e.preventDefault();
               onPokemonSelect(pokemon.url);
             }}
           >
-            <span style={{ 
-              textTransform: 'capitalize',
-              fontWeight: '500',
-              letterSpacing: '1px'
-            }}>
-              {pokemon.name}
-            </span>
+            <div className="pokemon-content">
+              <span className="pokemon-name">
+                {pokemon.name}
+              </span>
+            </div>
           </button>
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 

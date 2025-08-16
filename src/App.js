@@ -1,10 +1,11 @@
+import './styles/global.css';
 import "./App.css";
 import pokemonData from "./pokemonapi.json";
 import React, { useState, useEffect } from "react";
-import Header from "./components/Header";
-import PokemonList from "./components/PokemonList";
-import PokemonModal from "./components/PokemonModal";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import PokemonList from "./components/PokemonList/PokemonList";
+import PokemonModal from "./components/PokemonModal/PokemonModal";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [pokemonList] = useState(pokemonData.results);

@@ -1,4 +1,5 @@
 import React from 'react';
+import './PokemonModal.css';
 
 const PokemonModal = ({ pokemon, loading, error, onClose }) => {
   if (!pokemon) return null;
