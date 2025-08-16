@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Harshad-s-Pokemon-world/static/css/main.5941857a.css",
-    "main.js": "/Harshad-s-Pokemon-world/static/js/main.e97b3686.js",
+    "main.css": "/Harshad-s-Pokemon-world/static/css/main.b74d0f35.css",
+    "main.js": "/Harshad-s-Pokemon-world/static/js/main.f1f1d692.js",
     "static/js/453.bd7a2879.chunk.js": "/Harshad-s-Pokemon-world/static/js/453.bd7a2879.chunk.js",
     "static/media/logo.png": "/Harshad-s-Pokemon-world/static/media/logo.d4eeecadd64c0b382093.png",
     "index.html": "/Harshad-s-Pokemon-world/index.html",
-    "main.5941857a.css.map": "/Harshad-s-Pokemon-world/static/css/main.5941857a.css.map",
-    "main.e97b3686.js.map": "/Harshad-s-Pokemon-world/static/js/main.e97b3686.js.map",
+    "main.b74d0f35.css.map": "/Harshad-s-Pokemon-world/static/css/main.b74d0f35.css.map",
+    "main.f1f1d692.js.map": "/Harshad-s-Pokemon-world/static/js/main.f1f1d692.js.map",
     "453.bd7a2879.chunk.js.map": "/Harshad-s-Pokemon-world/static/js/453.bd7a2879.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5941857a.css",
-    "static/js/main.e97b3686.js"
+    "static/css/main.b74d0f35.css",
+    "static/js/main.f1f1d692.js"
   ]
 }
