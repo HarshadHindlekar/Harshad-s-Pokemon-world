@@ -18,8 +18,13 @@ const PokemonList = ({ pokemonList, onPokemonSelect, searchTerm, onClearSearch }
 
   return (
     <div className="pokemon-grid">
-      {pokemonList.map((pokemon) => (
-        <div key={pokemon.id} className="pokemon-card">
+      {pokemonList.map((pokemon, index) => (
+        <div 
+          key={pokemon.id} 
+          className="pokemon-card" 
+          style={{ '--i': index % 6 }}
+          data-animation-type={index % 3}
+        >
           <button 
             className='pokemon-card-button' 
             onClick={(e) => {
