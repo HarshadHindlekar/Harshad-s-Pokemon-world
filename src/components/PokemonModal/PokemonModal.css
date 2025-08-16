@@ -24,7 +24,6 @@
   position: relative;
   background: linear-gradient(145deg, #0f0c29, #302b63);
   margin: 20px auto;
-  padding: 60px 20px 20px;
   border-radius: 20px;
   max-height: 90vh;
   width: 90%;
@@ -69,34 +68,36 @@
 }
 
 .close-button {
-  position: absolute;
-  top: 15px;
-  right: 15px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
   color: white;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   z-index: 1001;
-  background: rgba(15, 12, 41, 0.8);
-  width: 36px;
-  height: 36px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--neon-blue);
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.3);
   padding: 0;
   margin: 0;
 }
 
 .close-button:hover {
   color: var(--neon-pink);
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.1);
   text-shadow: 0 0 15px var(--neon-pink);
+  border-color: var(--neon-pink);
+  box-shadow: 0 0 20px rgba(255, 16, 240, 0.5);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .pokemon-img {
@@ -118,9 +119,9 @@
 .pokemon-details {
   width: 100%;
   text-align: left;
-  padding: 0 10px;
   overflow-y: auto;
-  max-height: calc(90vh - 250px);
+  padding: 0;
+  max-height: 70%;
   scrollbar-width: thin;
   scrollbar-color: var(--neon-blue) rgba(0, 0, 0, 0.2);
 }
